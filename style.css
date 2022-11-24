@@ -1,0 +1,93 @@
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --cor-de-fundo: #00030c;
+  --fonte-principal: "Raleway", sans-serif;
+  --botao-azul-efeito: #3c92fa;
+}
+
+body {
+  background-color: #00030c;
+  color: var(--branco-principal);
+  font-family: var(--fonte-principal);
+  font-size: 14px;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container_cerveja {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-right: 90px;
+  padding: 20px 50px 20px;
+}
+.container-titulo {
+  font-size: 45px;
+  font-weight: 100;
+  text-align: left;
+  color: #00030c;
+  padding: 120px;
+  margin-bottom: -109px;
+  margin-top: -40px;
+  background-color: #b5a900;
+  width: 100%;
+  display: grid;
+}
+.container__botao {
+  border-radius: 15px;
+  text-decoration: none;
+  color: #03e9f4;
+  font-size: 12px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.2s;
+  letter-spacing: 2px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: 0%;
+  padding: 15px 15px 15px;
+  text-align: center;
+}
+.lista__item {
+  font-size: 16px;
+  color: var(--branco-principal);
+  justify-content: space-around;
+  font-weight: 100;
+  height: auto;
+  width: 40%;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px 0px 10px;
+  letter-spacing: 7px;
+}
+.flex-item-img {
+  align-items: center;
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  width: 35%;
+}
+.container__botao:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.container__aviso {
+  font-size: 11px;
+  color: var(--cinza-secundario);
+  padding: 20px 20px;
+  text-align: center;
+  font-weight: 100;
+}
